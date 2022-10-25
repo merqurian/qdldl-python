@@ -6,6 +6,15 @@ Python interface to the [QDLDL](https://github.com/oxfordcontrol/qdldl/)
 free LDL factorization routine for quasi-definite linear systems: `Ax =
 b`.
 
+
+## Building
+Only success so far has been building on linux. To do so: 
+
+1. clone https://github.com/osqp/qdldl and build it
+2. copy that directory under `c`
+3. run python -m build -w
+
+
 ## Installation
 
 This package can be directly installed via pip,
